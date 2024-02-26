@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 3rem
+};
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dropdownCountry{
+    padding: 1em;
+    margin: 1em;
+    width: 20rem;
+    height: 3rem;
+}
+.dropdownState{
+    padding: 1rem;
+    margin: 1em;
+    width: 10rem;
+    height: 3rem;
+
+}
+.dropdownCity{
+    padding: 1rem;
+    margin: 1em;
+    width: 10rem;
+    height: 3rem;
+
+}
+.highlight{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.fade{
+    color: #888;
+}
